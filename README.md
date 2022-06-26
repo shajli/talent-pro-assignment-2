@@ -1,6 +1,8 @@
 ## Talent Pro Assignment 2
 ### How to Examine
 The Assignment is consists of a api server which is developed on top of Nest.js, Apollo GraphQL, MongoDB and a client with reat Next.js, Apollo Client. When doing this assignment I follow the best practice for production ready solution. Originaly this assignment has four different server. One for serving the API, one for client, one for Database that is MongoDB cloud Atlas and one for Media files storage that is Cloudinary. All servers are doing their job efficiently, so there is no performence related issue and Seperation of concern maintained very well. 
+### Docker
+To dockerize the assignment I used two separate Dockerfile one for client another for server instade of docker-compose.yaml file, because of I didn't able reched that level within very short time. Besides I didn't have docker environment in my machine to tests the docker is running properly, beacuse I have a doubt, my pc may not be able to run docker smoothly for low configuration.
 
 To examine the project please nevigate to the project server folder and run with terminal/command prompt
 
